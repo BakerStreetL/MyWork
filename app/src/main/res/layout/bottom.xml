@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#272424"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/id_tab_weixin"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_weixin_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#272424"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/image1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="#3C3737"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_frd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_frd_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#272424"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/image2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="朋友"
+            android:textColor="#3C3737"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_contact"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_contact_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#272424"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/image3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="通讯录"
+            android:textColor="#3C3737"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_settings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_settings_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#272424"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/image4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#3C3737"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>
